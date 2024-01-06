@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+
+    <link rel="icon" href="assets/img/logo1.png" />
+    <link rel="icon" href="./assets/img/logo1.png"/>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <div class="navbar-left">
+                <li>
+                    <img src="assets/img/logo1.png" class="navbar-logo" />
+                </li>
+                <li>
+                    <a href="index.html" class="navbar-link"> Home </a>
+                </li>
+                <li>
+                    <a href="example.html" class="navbar-link"> My Project </a>
+                </li>
+                <li>
+                    <a href="simple.html" class="navbar-link"> Card </a>
+                </li>
+            </div>
+            <div class="navbar-right">
+                <li>
+                    <a href="contact.html" class="navbar-contact-btn"> Contact </a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+<div class="form-container">
+    <div>
+        <div class="column">
+            <div style="display: flex; flex-direction: column; width: 300px;">
+            <h1 style="text-align: center;margin-bottom: 30px;"> Create Your Post</h1>
+            <label class="label-style" for="title">Title</label>
+            <textarea class="input-style" id="title" placeholder="Hello World" required></textarea>
+            </div>
+        </div>
+        <div>       
+            <div class="date-container">
+                <label for="start-date">Start Date</label>
+                <input type="date" id="start-date">
+                <label for="end-date">End Date</label>
+                <input type="date" id="end-date">
+            </div>
+        </div>
+            <div class="column">
+                <div style="margin-left:auto;">  
+                <label class="label-style" for="Image">Image</label>
+                <input type="file" class="input-style" id="Image" ></input>
+                </div> 
+        </div>
+        <div class="column">   
+            <label class="label-style" for="tech">Technology</label>
+                <div class="column-checkbox">
+                    <div class="checkbox">
+                        <input type="checkbox" id="Node.js" name="Node.js" value="Node.js">
+                        <label for="Node.js">Node.Js</label>
+                        <input type="checkbox" id="Next.js" name="Next.js" value="Next.js">
+                        <label for="Next.js">Next.js</label>
+                        <input type="checkbox" id="React.js" name="React.js" value="React.js">
+                        <label for="React.js">React.JS</label>
+                        <input type="checkbox" id="Vue.js" name="Vue.js" value="Vue.js">
+                        <label for="Vue.js">Vue.JS</label>
+                    </div>
+                </div>    
+        </div>
+        <div class="column">  
+                    <div style="margin-left: auto;">     
+                    <label class="label-style" for="content">Your Content</label>
+                    <textarea class="input-msg" id="content" placeholder="Apa Cari Kak?" required></textarea>
+                    </div>
+        </div>  
+        <div>
+            <button class="btn-submit" >Submit</button>
+        </div>
+          
+        
+    </div>
+</div>
+<div class="new-container">
+    <div class="blog-post">
+        <!-- <h2 class="post-title">Example Blog Post Title</h2>
+        <p class="post-meta">Published on January 1, 2022</p>
+        <div class="post-content">
+          <p>This is an example blog post content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula, ligula a tincidunt consequat, felis tortor auctor ex, nec consectetur dui nunc id justo.</p>
+          <img src="https://via.placeholder.com/600" alt="Example Image">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam ex non facilisis consequat. Donec vel velit vitae sem lacinia dictum. Nulla facilisi.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam ex non facilisis consequat. Donec vel velit vitae sem lacinia dictum. Nulla facilisi.</p>
+        </div> -->
+      </div>
+</div>
+<div class="post-container">
+
+</div>
+    <script src="./assets/js/blog.js"></script>
+</body>
+
+</html>
